@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MediaDemo</string>
+    <string name="defaultVideoURL">http://archive.org/download/Justin_Cone_-_Building_On_The_Past_-_640x480/Justin_Cone_-_Building_On_The_Past_-_640x480_512kb.mp4</string>
+    <string name="play">Play</string>
+</resources>

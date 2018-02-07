@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/addresstxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:text="@string/address1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/addresstxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="@string/address2"
+        android:layout_below="@+id/addresstxt1"
+        android:layout_alignStart="@+id/addresstxt1" />
+
+    <TextView
+        android:id="@+id/citytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/addresstxt2"
+        android:layout_below="@+id/addresstxt2"
+        android:layout_marginTop="30dp"
+        android:text="@string/city" />
+
+    <TextView
+        android:id="@+id/provincetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/province"
+        android:layout_below="@+id/citytxt"
+        android:layout_alignEnd="@+id/citytxt" />
+
+    <TextView
+        android:id="@+id/countrytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/provincetxt"
+        android:layout_below="@+id/provincetxt"
+        android:layout_marginTop="36dp"
+        android:text="@string/country" />
+
+    <TextView
+        android:id="@+id/postalcodetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/countrytxt"
+        android:layout_below="@+id/countrytxt"
+        android:layout_marginTop="39dp"
+        android:text="@string/postal_code" />
+
+    <TextView
+        android:id="@+id/phonetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/postalcodetxt"
+        android:layout_below="@+id/postalcodetxt"
+        android:layout_marginTop="40dp"
+        android:text="@string/phone" />
+
+    <TextView
+        android:id="@+id/urltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/phonetxt"
+        android:layout_below="@+id/phonetxt"
+        android:layout_marginTop="46dp"
+        android:text="@string/url" />
+</RelativeLayout>

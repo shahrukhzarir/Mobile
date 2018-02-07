@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="26dp"
+        android:text="StudentId" />
+
+    <TextView
+        android:id="@+id/lblCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Component"
+        android:layout_alignBaseline="@+id/lblId"
+        android:layout_alignBottom="@+id/lblId"
+        android:layout_toStartOf="@+id/lblMark"
+        android:layout_marginEnd="39dp" />
+
+    <TextView
+        android:id="@+id/lblMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:text="Mark"
+        android:layout_alignBaseline="@+id/lblCourse"
+        android:layout_alignBottom="@+id/lblCourse"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

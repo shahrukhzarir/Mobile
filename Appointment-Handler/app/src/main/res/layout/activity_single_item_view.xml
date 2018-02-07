@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:id="@+id/first_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/first_name_label"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@id/first_name_label"
+        />
+
+    <TextView
+        android:id="@+id/last_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_name_label"
+        android:text="@string/last_name_label"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_name"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@+id/last_name_label"
+        />
+
+    <TextView
+        android:id="@+id/location_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_name_label"
+        android:textColor="@android:color/background_light"
+        android:text="@string/location_label"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/last_name_label"
+        android:layout_toEndOf="@id/first_name_label"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@+id/location_label" />
+
+    <TextView
+        android:id="@+id/city_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_label"
+        android:textColor="@android:color/background_light"
+        android:text="@string/city_label"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:layout_toEndOf="@id/first_name_label"
+        android:textColor="@android:color/background_light"
+        android:layout_toRightOf="@+id/city_label"
+        />
+
+    <Button
+        android:id="@+id/book_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="#80a0ff"
+        android:onClick="onBookAppointment"
+        android:textColor="@android:color/background_light"
+        android:text="@string/book_appointment" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Doc App</string>
+    <string name="first_name_label">First Name: </string>
+    <string name="last_name_label">Last Name: </string>
+    <string name="location_label">Location: </string>
+    <string name="city_label">City: </string>
+    <string name="doc_name">Doctor\'s Name:</string>
+    <string name="appt_date">Appointment Date:</string>
+    <string name="appt_time">Appointment Time:</string>
+    <string name="notes">Notes:</string>
+    <string name="last_name_search">Last Name Search</string>
+    <string name="book_appointment">Book Appointment</string>
+    <string name="appointment">appointments</string>
+    <string name="find_a_doctor">find a doctor</string>
+    <string name="drugs">drug info</string>
+    <string name="name">Name</string>
+    <string name="selected_date">09/12/2017</string>
+    <string name="selected_time">10:30 AM</string>
+    <string name="selected_notes">notes...</string>
+    <string name="format_date">YYYY/MM/DD</string>
+    <string name="format_time">HH:MM</string>
+</resources>

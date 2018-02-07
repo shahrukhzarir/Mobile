@@ -1,0 +1,10 @@
+<resources>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="intro">Welcome!</string>
+    <string name="about">About</string>
+    <string name="finish_button">Goodbye!</string>
+    <string name="output_sentence">This is lab 3</string>
+    <string name="app_name">Lab Three</string>
+</resources>

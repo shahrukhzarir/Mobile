@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="links">
+        <item>http://archive.org/download/Justin_Cone_-_Building_On_The_Past_-_640x480/Justin_Cone_-_Building_On_The_Past_-_640x480_512kb.mp4</item>
+        <item>http://techslides.com/demos/sample-videos/small.mp4</item>
+    </string-array>
+</resources>

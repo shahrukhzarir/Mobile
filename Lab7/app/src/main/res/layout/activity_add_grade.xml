@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shahrukhzarir.lab7.AddGrade">
+
+    <TextView
+        android:id="@+id/lblId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="32dp"
+        android:text="Student ID" />
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lblId"
+        android:layout_below="@+id/lblId"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblCourseComponet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtId"
+        android:layout_below="@+id/txtId"
+        android:layout_marginTop="35dp"
+        android:text="Course" />
+
+    <EditText
+        android:id="@+id/txtCourseComponet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtId"
+        android:layout_below="@+id/lblCourseComponet"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtCourseComponet"
+        android:layout_below="@+id/txtCourseComponet"
+        android:layout_marginTop="37dp"
+        android:text="Mark" />
+
+    <EditText
+        android:id="@+id/txtMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtCourseComponet"
+        android:layout_below="@+id/lblMark"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtMark"
+        android:layout_below="@+id/txtMark"
+        android:layout_marginTop="43dp"
+        android:onClick="onClickAddGrade"
+        android:text="Add" />
+</RelativeLayout>

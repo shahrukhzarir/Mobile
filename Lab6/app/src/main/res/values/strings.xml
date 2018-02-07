@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="addContact">Add</string>
+    <string name="surname">Surname</string>
+    <string name="first_name">First Name</string>
+    <string name="phone">Phone</string>
+</resources>

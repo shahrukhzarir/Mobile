@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "questions">
+        <item>Is the earth round?</item>
+        <item>Is programming fun?</item>
+        <item>Can you dance?</item>
+        <item>Are you going to pass mobile dev?</item>
+        <item>Do you eat sushi?</item>
+    </string-array>>
+</resources>
